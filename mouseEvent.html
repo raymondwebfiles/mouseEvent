@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Event</title>
+</head>
+<body onload="loadEvent()">
+
+    <h1 onclick="clickEvent(this)">Click Me</h1>
+    <h1 onmouseover="hoverEvent(this)" onmouseout="outEvent(this)">Hover Me</h1>
+    <h1 onmousedown="downEvent(this)" onmouseup="upEvent(this)">Hold Me</h1>
+    <input type="text" placeholder="Input Text" onchange="changeEvent(this)" id="txt">
+
+    <h1 id="head">Headings</h1>
+    <button onclick="powerOn()">on</button>
+    <button onclick="powerOff()">off</button>
+    <!-- <video width="800" controls>
+        <source src="beach.mp4">
+    </video> -->
+
+    <p id="pid">Hello Philippines</p>
+    <script src="event.js"></script>
+</body>
+</html>
